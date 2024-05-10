@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1 rem;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+.portfolio-container{
+    min-height: 100vh ;
+    width: 100%;
+    display: flex;
+}
+
+.nav-list{
+    position: fixed;
+    left: 32vw;
+}
+
+.nav-list ul {
+    list-style:none ;
+    display: flex;
+    gap: 3vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-list li a {
+    text-decoration: none ;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.left-container, .right-container{
+    height:100vh;
+} 
+
+.left-container
+{
+  background: #262525;
+  width:70%;
+  display: flex;
+  align-items: center;
+
+    
+}
+
+.left-container .icons {
+   display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    top: 40vh;
+    /* left: 5vw; */
+    font-size:medium;    
+    margin: 1vw;
+} 
+
+.left-container .left-content{
+    margin: 5vw;
+}
+
+
+
+ .right-container
+{
+   background: linear-gradient(#262525 , #1843a1);
+   width:30%;
+}
+
+
+.fa-brands, .fa-solid {
+    color: #fafafa
+}
+
+.icons a {
+    border: 1px solid white ;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    box-shadow: 0 0 6px 0px #2f6bc5; ;
+
+}
+
+.fa-brands:hover {
+    color: crimson;
+    font-size: 1.5rem;  
+    transition: all 0.15s ease-out 0.1s;
+}
+
+.fa-solid:hover {
+    color: crimson;
+    font-size: 1.5rem;    
+    transition: all 0.25s ease-in-out 0.1s;
+}
+
+.fa-instagram:hover {
+    color: rgb(247, 67, 157);
+}
+
+.fa-linkedin-in:hover {
+    color: rgb(43, 73, 208);
+}
+
+.fa-whatsapp:hover {
+    color: rgb(24, 192, 9)
+}
+
+.fa-code:hover {
+    color: rgb(126, 114, 119);
+}
+
+.fa-github:hover {
+    color: rgb(96, 93, 93);
+}
+
+
+.left-content{
+    color: white;
+    
+}
+
+.left-content span{
+    color: #13cbe6;
+}
+
+.left-content h1{
+    color: #13cbe6;
+}
+
+.btn
+{
+    height: 6vh;
+    width: 9vw;
+    margin: 20px;
+    border: 2px solid #262525;
+    border-radius: 30px;
+}
+
+#btn1{
+    background:#13cbe6;
+}
+
+#btn2{
+    background:#262525;
+    color: white;
+    border-color: #13cbe6;
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.circle:nth-child(1){
+    height: 80vh;
+    background-color: #262525;
+}
+
+.circle:nth-child(2){
+    height: 65vh;
+    background-color:#262525; ;
+    background-image: url(Assests/WhatsApp\ Image\ 2024-05-06\ at\ 2.38.32\ PM.jpeg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 
+    0 0 1rem #fafafa,
+    0 0 2rem #3485b8
+    ;
+
+}
