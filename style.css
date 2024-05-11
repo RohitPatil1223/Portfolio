@@ -22,11 +22,10 @@
 .nav-list ul {
     list-style:none ;
     display: flex;
-    gap: 3vw;
+    /* gap: 3vw; */
     height: 10vh;
     justify-content: center;
     align-items: center;
-
 }
 
 .nav-list li a {
@@ -59,6 +58,12 @@
     font-size:medium;    
     margin: 1vw;
 } 
+
+.nav-list ul li a {
+    margin-right: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
 
 .left-container .left-content{
     margin: 5vw;
@@ -184,4 +189,13 @@
     0 0 2rem #3485b8
     ;
 
+}
+
+
+
+.nav-list ul li a:hover {
+    border-bottom: 2px solid #1843a1;
+
+    color: #13cbe6;
+    
 }
