@@ -195,7 +195,13 @@
 
 .nav-list ul li a:hover {
     border-bottom: 2px solid #1843a1;
-
     color: #13cbe6;
-    
+}
+
+.Certifications ol{
+    margin-left: 25px;
+}
+
+.Certifications h2 {
+    margin: 10px;
 }
