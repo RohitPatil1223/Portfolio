@@ -6,6 +6,8 @@
     font-size: 1 rem;
     box-sizing: border-box;
     font-family: "Dancing Script", cursive;
+        background: #262525;
+      
 }
 
 .portfolio-container{
@@ -16,7 +18,7 @@
 
 .nav-list{
     position: fixed;
-    left: 32vw;
+    left: 25vw;
 }
 
 .nav-list ul {
@@ -154,6 +156,10 @@
     background:#13cbe6;
 }
 
+#btn1 b{
+    background:#13cbe6;
+}
+
 #btn2{
     background:#262525;
     color: white;
@@ -204,4 +210,28 @@
 
 .Certifications h2 {
     margin: 10px;
+}
+
+.tech h1{
+    color: #13cbe6;
+}
+
+.tech ol{
+    margin-left: 25px;
+    color: #fafafa;
+}
+
+.tech h2{
+    color: #13cbe6;
+    margin-left: 10px;
+
+}
+
+.about h1{
+    color: #13cbe6;
+}
+
+.about p {
+    color: #fafafa;
+    margin-left: 10px;
 }
